@@ -1,10 +1,17 @@
+'use client'
+
+import { useMenu } from '../../utils/useMenu.js';
 
 import styles from './logoBlock.module.scss';
 
 export default function LogoBlock() {
+  const {
+    isMenuOpen,
+  } = useMenu();
+
   return (
     <div
-      className={styles.logoBlock}
+      className={`${styles.logoBlock} ${isMenuOpen ? styles.open : ''}`}
       data-testid='logo-block'
     >
       <h1>

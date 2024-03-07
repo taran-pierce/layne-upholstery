@@ -7,16 +7,19 @@
     transition: all .4s ease-in;
     position: relative;
     list-style-type: none;
+    display: block;
 
     li {
       transition: all .5s ease-in;
+      border-bottom: 1px dashed transparent;
       position: relative;
-      padding: var(--padding-base);
+      padding: var(--padding-base) 0 0;
       right: -70vw;
 
       a {
         display: block;
         font-weight: bold;
+        border-bottom: 1px dashed transparent;
         font-size: 2rem;
         padding: var(--padding-base);
       }
@@ -25,9 +28,15 @@
     &.open {
       max-height: 1000px;
       opacity: 1;
+      display: inline-block;
 
       li {
         right: 0;
+        border-color: var(--color-black-dark);
+
+        a {
+          border-color: var(--color-primary);
+        }
       }
     }
   }
