@@ -6,4 +6,9 @@ A website for an upholstery business to advertise their services
   - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 
 ### Deployment
-- Probably going to use Vercel, it has indeed been the easiest for static sites
+- Deployed through Vercel on merge to `main`
+
+### Commands
+- `npm run dev` - start dev server
+- `npm run build` - make production build
+- `npm run test` - run component unit tests

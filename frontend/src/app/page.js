@@ -1,5 +1,3 @@
-// import Image from "next/image";
-
 import Link from "next/link";
 import Container from "../components/Container";
 
@@ -13,8 +11,9 @@ export default function Home() {
     <main>
       <Container>
         <h1>Welcome to Layne's Upholstery</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>A family owned business that has been taking care of the greater Lindale area for all of their upholstery needs. Taking great pride in all reupholstery of items ranging from furniture, boat seats and covers, vehicles and more!</p>
+        <p>We have been in business since 1982 and are eager to continue providing our top quality craftsmanship to everyone in the surrounding areas of Tyler, Mineola and .... I dont know some where else too.</p>
+        <p>There is no project too big or too small, so give us a call today and we can talk about your needs and get you an estimate on the repairs!</p>
         <p>
           <Link
             href="/about"

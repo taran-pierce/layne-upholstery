@@ -1,5 +1,3 @@
-// import Image from "next/image";
-
 import Link from "next/link";
 import Container from "../../components/Container";
 
@@ -13,8 +11,24 @@ export default function Projects() {
     <main>
       <Container>
         <h1>Projects at Layne's Upholstery</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Going to list out some cool projects here and show a few photos</p>
+        <ul>
+          <li>
+            <p>Furniture</p>
+          </li>
+          <li>
+            <p>Boats</p>
+          </li>
+          <li>
+            <p>Trains</p>
+          </li>
+          <li>
+            <p>Plains</p>
+          </li>
+          <li>
+            <p>Automobiles</p>
+          </li>
+        </ul>
       </Container>
     </main>
   );
