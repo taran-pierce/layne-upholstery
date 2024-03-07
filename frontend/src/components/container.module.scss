@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  padding: var(--padding-base);
+}
+
+@media(min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}

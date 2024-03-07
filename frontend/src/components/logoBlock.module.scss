@@ -1,0 +1,18 @@
+.logoBlock {
+  // background: red;
+  h1 {
+    color: var(--color-black-dark);
+
+    a {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      gap: var(--padding-base);
+    }
+  }
+
+  object {
+    width: 80px;
+    height: 80px;
+  }
+}
