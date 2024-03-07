@@ -6,13 +6,13 @@
   .mainWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
 }
 
 
 @media(min-width: 992px) {
   .header {
-    
     .mainWrapper {
       align-content: center;
     }
