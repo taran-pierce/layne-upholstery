@@ -4,23 +4,45 @@
 
     a {
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto;
       align-items: center;
       gap: var(--padding-base);
     }
   }
 
   object {
-    display: none;
+    max-height: 0;
+    transform: rotate(360deg);
+    opacity: 0;
+    transition: all .4s ease-in;
     width: 80px;
     height: 80px;
+  }
+
+  &.open {
+    object {
+      transform: rotate(0);
+      max-height: 1000px;
+      opacity: 1;
+    }
   }
 }
 
 @media(min-width: 768px) {
   .logoBlock {
+    h1 {
+      a {
+        grid-template-columns: auto auto;
+      }
+    }
+
     object {
-      display: block;
+      max-height: 1000px;
+      opacity: 1;
+
+      &:hover {
+        transform: rotate(340deg);
+      }
     }
   }
 }
