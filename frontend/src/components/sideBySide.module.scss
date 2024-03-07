@@ -1,0 +1,28 @@
+.sideBySideWrapper {
+  background: url('/images/fabric_1.webp') top left repeat;
+  border: 1px solid var(--color-black-transparent-30);
+  padding: var(--padding-xlarge);
+  margin-top: 2rem;
+  display: grid;
+  gap: var(--padding-large);
+  align-items: center;
+
+  img {
+    border: 3px dashed var(--color-secondary);
+    outline: 3px dashed var(--color-primary);
+    display: block;
+    max-width: 100%;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+      border-color: var(--color-primary);
+      outline-color: var(--color-secondary);
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  .sideBySideWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}

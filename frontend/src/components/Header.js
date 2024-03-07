@@ -10,7 +10,7 @@ export default function Header() {
       className={styles.header}
       data-testid='header'
     >
-      <Container>
+      <Container withBorder>
         <div className={styles.mainWrapper}>
           <LogoBlock />
           <Navigation />

@@ -1,6 +1,12 @@
 .container {
   margin: 0 auto;
   padding: var(--padding-base);
+
+  &.withBorder {
+    border: 1px dashed var(--color-primary);
+    outline: 1px dashed var(--color-black-dark);
+    box-shadow: inset 0 0 6px 1px var(--color-black-transparent-30);
+  }
 }
 
 @media(min-width: 992px) {
