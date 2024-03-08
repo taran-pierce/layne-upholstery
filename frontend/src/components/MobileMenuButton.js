@@ -16,14 +16,10 @@ export default function MobileMenuButton({
       data-testid='mobile-menu-button'
     >
       <object
-        data="/images/icons/menu.svg"
-        aria-label="Menu Toggle Icon"
-      ></object>
-      {/* <img
-        src='/menu-80.png'
-        alt='Navigation Toggle'
+        data='/images/icons/menu.svg'
+        aria-label='Menu Toggle Icon'
         data-testid='logo'
-      /> */}
+      ></object>
     </button>
   )
 }
