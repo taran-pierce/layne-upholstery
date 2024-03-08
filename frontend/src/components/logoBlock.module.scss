@@ -41,8 +41,31 @@
       opacity: 1;
 
       &:hover {
-        transform: rotate(340deg);
+        animation: 1s jiggle ease-in-out;
+        // transform: rotate(340deg);
       }
     }
+  }
+}
+
+@keyframes jiggle {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  25% {
+    transform: rotate(350deg);
+  }
+
+  50% {
+    transform: rotate(360deg);
+  }
+
+  75% {
+    transform: rotate(370deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }

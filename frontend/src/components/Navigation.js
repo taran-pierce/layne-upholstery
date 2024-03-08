@@ -40,6 +40,7 @@ export default function Navigation() {
     >
       <MobileMenuButton
         toggleMenu={toggleMenu}
+        isMenuOpen={isMenuOpen}
       />
       <ul className={isMenuOpen ? styles.open : ''}>
         {mainLinks.map((link) => (

@@ -14,6 +14,8 @@
       border-bottom: 1px dashed transparent;
       position: relative;
       padding: var(--padding-base) 0 0;
+      text-shadow: -1px -1px 0 rgba(255,255,255,.2);
+      color: var(--color-black-dark);
       right: -70vw;
 
       a {
