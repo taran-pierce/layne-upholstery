@@ -1,8 +1,17 @@
 .mobileMenuButton {
-  background: var(--color-primary);
-  border: 2px solid var(--color-black-dark);
+  background: transparent;
+  border: none;
   padding: .1rem;
-  box-shadow: inset 0 0 2px 4px var(--color-black-transparent-30);
+  transition: all .4s ease-in;
+
+  object {
+    pointer-events: none;
+    cursor: pointer;
+  }
+
+  &.open {
+    transform: rotateY(-180deg)
+  }
 }
 
 @media(min-width: 992px) {

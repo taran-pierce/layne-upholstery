@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  padding: var(--padding-base);
+  padding: var(--padding-large);
 
   &.withBorder {
     border: 1px dashed var(--color-primary);
